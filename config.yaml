@@ -1,0 +1,14 @@
+transforms:
+  - type: filter_eq
+    field: country
+    value: GB
+  - type: select
+    fields: [first_name, last_name, country]
+  - type: rename
+    mapping:
+      first_name: firstName
+      last_name: lastName
+  - type: derive_concat
+    new_field: fullName
+    fields: [firstName, lastName]
+    sep: " "

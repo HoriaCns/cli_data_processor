@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/cli_data_processor/__init__.py
+src/cli_data_processor/cli.py
+src/cli_data_processor/config.py
+src/cli_data_processor/io.py
+src/cli_data_processor/pipeline.py
+src/cli_data_processor/transforms.py
+src/cli_data_processor.egg-info/PKG-INFO
+src/cli_data_processor.egg-info/SOURCES.txt
+src/cli_data_processor.egg-info/dependency_links.txt
+src/cli_data_processor.egg-info/entry_points.txt
+src/cli_data_processor.egg-info/requires.txt
+src/cli_data_processor.egg-info/top_level.txt
+tests/test_pipeline.py
